@@ -49,6 +49,8 @@
              <widget class="QLabel" name="label_5">
               <property name="font">
                <font>
+                <family>Xirod</family>
+                <pointsize>6</pointsize>
                 <weight>75</weight>
                 <bold>true</bold>
                </font>
@@ -102,6 +104,11 @@
             </property>
             <item row="0" column="0">
              <widget class="QLabel" name="label">
+              <property name="font">
+               <font>
+                <family>Xirod</family>
+               </font>
+              </property>
               <property name="text">
                <string>Balance:</string>
               </property>
@@ -131,6 +138,11 @@
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="label_3">
+              <property name="font">
+               <font>
+                <family>Xirod</family>
+               </font>
+              </property>
               <property name="text">
                <string>Unconfirmed:</string>
               </property>
@@ -160,6 +172,11 @@
             </item>
             <item row="2" column="0">
              <widget class="QLabel" name="labelImmatureText">
+              <property name="font">
+               <font>
+                <family>Xirod</family>
+               </font>
+              </property>
               <property name="text">
                <string>Immature:</string>
               </property>
@@ -184,23 +201,33 @@
               </property>
              </widget>
             </item>
+            <item row="3" column="0" colspan="2">
+             <spacer name="verticalSpacer">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>10</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="4" column="0" colspan="2">
+             <widget class="QGraphicsView" name="graphicsView">
+              <property name="cursor" stdset="0">
+               <cursorShape>PointingHandCursor</cursorShape>
+              </property>
+              <property name="whatsThis">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;file:///C:/Users/Anarko/Pictures/CryptoGaule/Wallet/Source/CryptoGaule/src/qt/res/icons/CryptoGaule29.png&quot; style=&quot;width:100%&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
            </layout>
           </item>
          </layout>
         </widget>
-       </item>
-       <item>
-        <spacer name="verticalSpacer">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>40</height>
-          </size>
-         </property>
-        </spacer>
        </item>
       </layout>
      </item>
@@ -219,6 +246,12 @@
            <layout class="QHBoxLayout" name="horizontalLayout_2">
             <item>
              <widget class="QLabel" name="label_4">
+              <property name="font">
+               <font>
+                <family>Xirod</family>
+                <pointsize>6</pointsize>
+               </font>
+              </property>
               <property name="text">
                <string>&lt;b&gt;Recent transactions&lt;/b&gt;</string>
               </property>
