@@ -1,4 +1,4 @@
-CryptoGaule integration/staging tree
+CryptoGaule Script Blockchain 
 ================================
 
 http://www.cryptogaule.fr
@@ -10,16 +10,35 @@ What is CryptoGaule?
 ----------------
 
 CryptoGaule is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 2.5 minute block targets
- - subsidy halves in 840k blocks (~4 years)
- - ~84 million total coins
+Block reward
+500
+Block Reward Halving Rate
+120,000
+Premine
+30 000 000
+Total Coins
+150 000 000
 
-The rest is the same as Bitcoin.
- - 50 coins per block
- - 2016 blocks to retarget difficulty
+Coinbase maturity
+20
+Number of blocks before a mined block can be spend.
+-----------------------------
+Number of confirmations
+6
+Number of blocks before a transaction is confirmed.
+
+-------------
+Target timespan in minutes
+10
+Number of minutes before difficulty of the network is re-adjusted.
+
+--------------------
+Target spacing in minutes
+5
+Number of minutes it should take to mine a block.
 
 For more information, as well as an immediately useable, binary version of
-the CryptoGaule client sofware, see http://www.cryptogaule.fr 
+the CryptoGaule client sofware, see https://www.cryptogaule.fr 
 
 License
 -------
@@ -45,7 +64,7 @@ match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/cryptogaule-project/cryptogaule/tags) are created
+completely stable. [Tags](https://github.com/cryptogaule/cryptogaule/tags) are created
 regularly to indicate new official, stable release versions of CryptoGaule.
 
 Testing
