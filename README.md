@@ -4,6 +4,7 @@ CryptoGaule Script Blockchain
 http://www.cryptogaule.fr
 
 Copyright (c) 2009-2014 Bitcoin Developers
+
 Copyright (c) 2011-2014 CryptoGaule Developers
 
 What is CryptoGaule?
@@ -11,17 +12,26 @@ What is CryptoGaule?
 
 CryptoGaule is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
 Block reward
+
 500
+
 Block Reward Halving Rate
+
 120,000
+
 Premine
+
 30 000 000
+
 Total Coins
+
 150 000 000
+
 
 Coinbase maturity
 20
 Number of blocks before a mined block can be spend.
+
 -----------------------------
 Number of confirmations
 6
